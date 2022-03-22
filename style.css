@@ -1,0 +1,681 @@
+/* NAVBAR */
+nav img {
+    position: absolute;
+    left: 43px;
+}
+nav .nav-link {
+    /* position: relative; */
+    /* top: 37px; */
+    font-family: 'Suez One';
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111111 !important;
+    -webkit-text-stroke: 1px;
+}
+nav ul li:nth-child(1) {
+    margin-left: 180px;
+}
+nav .signup {
+    position: absolute;
+    right: 189px;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A2FF !important;
+}
+nav .loginBtn {
+    position: absolute;
+    width: 110px;
+    height: 43px;
+    right: 43px;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #00A2FF !important;
+    border: 3px solid #00A2FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav-item .far {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #828282;
+    margin-right: 15px;
+}
+.nav-item .far:nth-child(1) {
+    margin-left: 120px;
+}
+.active {
+    color: #00A2FF !important;
+}
+/* SUBHEADER */
+.subHeader {
+    position: absolute;
+    width: 100vw;
+    height: 77px;
+    /* left: calc(50% - 1300px/2); */
+    top: 70px;
+    background: #EAEAEA;
+}
+.subHeader h1 {
+    position: absolute;
+    left: 139px;
+    top: 17px;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #828282 !important;
+}
+.subHeader button {
+    position: absolute;
+    width: 161px;
+    height: 39px;
+    left: 864px;
+    top: 19px;
+    border: 3px solid #00A2FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #00A2FF;
+    -webkit-text-stroke: 1px;
+    cursor: pointer;
+    }
+.subHeader .subBtn {
+    left: 1050px;
+}
+.subHeader .subBtn a {
+    text-decoration: none;
+    color: #828282 !important;
+}
+/* BANNER */
+.topBanner {
+    background: url(img/topBanner.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    width: 860px;
+    height: 89px;
+}
+.topBanner h1 {
+    position: relative;
+    top: 12px;
+    left: 55px;
+    font-family: 'Suez One';
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 39px;
+    /* letter-spacing: 0em; */
+    text-align: left;
+    margin: 0;
+}
+.topBanner h3 {
+    position: relative;
+    left: 55px;
+    top: 13px;
+    font-family: 'Suez One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.topBanner button {
+    width: 161px;
+    height: 39px;
+    position: relative;
+    top: 24px;
+    left: 175px;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #FFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #FFF;
+    -webkit-text-stroke: 1px;
+    cursor: pointer;
+}
+/* PRODUCT IMGS */
+.topInfo {
+    margin-top: 50px;
+}
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+    width: 417px;
+    flex-wrap: wrap;
+}
+.small-img-col {
+    flex-basis: 23%;
+    margin-top: 14px;
+}
+.small-img {
+    width: 96px;
+}
+.sproduct select {
+    display: block;
+    padding: 5px 10px;
+}
+/* .sproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+} */
+.sproduct input:focus {
+    outline: none;
+}
+.sproduct .sproductContent {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.buy-btn {
+    background: #FB77FB;
+    opacity: 1;
+    transition: 0.3s all;
+}
+/* SEATCH BOX */
+.searchBox {
+    position: relative;
+    width: 387px;
+    height: 465px;
+    right: 104px;
+    /* top: 166px; */
+    background: #FFFFFF;
+    border: 2px solid #00A2FF;
+}
+.searchReway {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #00A2FF;
+}
+.hideBox {
+    position: relative;
+    left: 43px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.searchTitle {
+    position: relative;
+    left: 43px;
+    /* top: 36px; */
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px;
+}
+.searchBrand, .searchColor, .searchPrice {
+    position: relative;
+    left: 33px;
+    top: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(130, 130, 130, 0.5);
+}
+.brandInput, .colorInput {
+    width: 320px;
+    height: 34px;
+    margin: 23px 0 0 23px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.priceSlider {
+    width: 320px;
+    height: 34px;
+    margin: 0 0 0 23px; 
+}
+.priceSlider h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.priceSlider p {
+    font-size: 10px;
+    margin-top: 20px;    
+}
+.min-max label {
+    font-size: 14px;
+    float: left;
+    margin-right: 5px;
+    line-height: 1.6;    
+}
+.min {
+    float: left;    
+}
+.max {
+    float: right;    
+}
+.min-max {
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+.min-max span {
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+}
+.min-max-range {
+    padding: 30px 0px 20px 0px;    
+}
+.range {
+    -webkit-appearance:none;
+    appearance:none;
+    width: 50%;
+    height: 4px;
+    max-width: 400px;
+    background-color: #00A2FF;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    float: left;    
+}
+.range::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance:none;
+    background-color: #00A2FF;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.range::moz-range-thumb {
+    -webkit-appearance:none;
+    appearance:none;
+    background-color: #0070BF;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.searchBtn {
+    position: absolute;
+    width: 174px;
+    height: 58px;
+    /* left: 98px;
+    top: 23px; */
+    margin: 50px 0 0 0;
+    background: #00A2FF;
+    border: none;
+    font-family: 'Suez One';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 39px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ADFVERT BANNER */
+.adBanner {
+    position: relative;
+    width: 307.2px;
+    height: 616px;
+    right: 104px;
+    top: 35px;
+}
+/* PRODUCT INFO */
+.bootContent {
+    position: relative;
+    top: 27px;
+    left: 130px;
+}
+.bootContent .bootInfo {
+    max-width: 344px !important;
+    height: 385px;
+    border: 6px solid #00A2FF;
+}
+.py-4 {
+    font-family: 'Suez One';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    color: #111111;
+    -webkit-text-stroke: 1px;
+    padding: 0 !important;
+}
+.subtitle {
+    /* font-family: 'PT Sans'; */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(130, 130, 130, 0.5);
+}
+.productDetails {
+    position: absolute;
+    width: 307px;
+    height: 224px;
+    left: 22px;
+    top: 50px;
+}
+.productDetails .row {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.productDetails h1 {
+    /* font-family: 'PT Sans'; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #828282;
+    margin: 0;
+    position: relative;
+    left: 8px;
+}
+.productDetails h2 {
+    /* font-family: 'PT Sans'; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #111111;
+    position: absolute;
+    left: 110px;
+    text-align: left;
+}
+.color h2 i {
+    color: #91613D
+}
+.productDetails hr {
+    position: absolute;
+    width: 285px;
+    top: 115px;
+    border: 1px solid rgba(130, 130, 130, 0.5)
+}
+.productDetails .subTitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(130, 130, 130, 0.5);
+    position: relative;
+    top: 45px;
+    left: 14px;
+}
+.productDetails ul {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(130, 130, 130, 0.5);
+    position: relative;
+    top: 40px;
+    left: 30px;
+    padding: 0;
+}
+#MainImg {
+    min-width: 418px !important;
+    height: 568px;
+}
+.cartContainer {
+    position: absolute;
+    max-width: 344px !important;
+    height: 325px;
+    top: 400px;
+    background: #EAEAEA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.cartSize {
+    /* position: relative; */
+    /* left: 33px;
+    top: 14px; */
+    margin: 14px 33px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(130, 130, 130, 0.5);
+}
+.cartContainer input {
+    /* position: relative; */
+    width: 320px;
+    height: 34px;
+    /* left: 23px;
+    right: 23px; */
+    margin: 12px 23px;
+    top: 37px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.cartBtn {
+    position: relative;
+    width: 290px;
+    height: 70px;
+    /* margin: 22px; */
+    background: #00A2FF;
+    border: none;
+    font-family: 'Suez One';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+/* MAIL BOX */
+.mailBox {
+    position: relative;
+    width: 356px;
+    height: 259px;
+    right: 104px;
+    /* top: 1331px; */
+    background: #00A2FF;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.mailIcon {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mailTitle {
+    font-family: 'Suez One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mailEmail {
+    margin: 0 33px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.mailBox div input {
+    /* position: relative; */
+    width: 320px;
+    height: 34px;
+    /* left: 23px;
+    right: 23px; */
+    margin: 12px 23px;
+    top: 37px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.mailBtn {
+    width: 174px;
+    height: 58px;
+    /* left: 98px;
+    top: 23px; */
+    /* margin: 50px 0 0 0; */
+    background: #FFFFFF;
+    border: none;
+    font-family: 'Suez One';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 39px;
+    color: #00A2FF;
+    -webkit-text-stroke: 1px;
+    cursor: pointer;
+}
+/* FEATURED */
+.featuredContent {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.featuredTxtContainer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.featuredTxtContainer h3 {
+    width: 195px;
+    height: 26px;
+    margin: 0 0 40px 0;
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #111111;
+    -webkit-text-stroke: 1px;
+}
+.featuredTxtContainer span {
+    color: #00A2FF;
+}
+.featuredHr {
+    width: 602px;
+    height: 0px;
+    background-color: #828282;
+}
+.featuredImgs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+}
+.product div {
+    display: flex;
+    justify-content: space-around;
+}
+.p-name {
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    -webkit-text-stroke: 1px;
+}
+.p-store {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    text-align: left;
+}
+.p-price {
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #00A2FF;
+    -webkit-text-stroke: 1px;
+    text-align: left;   
+}
+.p-view {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #828282;
+    text-align: right;
+}
+.p-view:hover {
+    text-decoration: none;
+    color: #828282;
+}
+/* FOOTER */
+footer {
+    height: 229px;
+    background: #4A4A4A;
+    padding: 22px 0 0 0;
+}
+.footerContainer {
+    display: flex;
+    justify-content: center;
+}
+.pb-2 {
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-one ul li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer-one div i {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-right: 25px;
+}
